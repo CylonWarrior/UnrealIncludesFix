@@ -43,3 +43,8 @@
 SourceArt/**/*.png
 SourceArt/**/*.tga
 
+ProjectSerializer/bin/*
+ProjectSerializer/obj/*
+
+UnrealIncludesFix/bin/*
+UnrealIncludesFix/obj/*

@@ -41,8 +41,10 @@
     <Reference Include="System.Xml.Serialization" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IProjSerializer.cs" />
+    <Compile Include="ProjectSerializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VcxProjSerializer.cs" />
+    <Compile Include="VcxprojSerializationInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

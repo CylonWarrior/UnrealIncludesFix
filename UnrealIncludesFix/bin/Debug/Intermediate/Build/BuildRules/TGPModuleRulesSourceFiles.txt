@@ -1,3 +1,0 @@
-D:\Projects\Unreal\TheGauntletPrismatic\Source\TGP\TGP.Build.cs
-D:\Projects\Unreal\TheGauntletPrismatic\Source\TGP.Target.cs
-D:\Projects\Unreal\TheGauntletPrismatic\Source\TGPEditor.Target.cs

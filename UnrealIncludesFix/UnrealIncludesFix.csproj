@@ -47,15 +47,15 @@
     <Reference Include="System.Xml.Serialization" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IUnrealProjectManipulator.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="ProjectIncludeReader.cs" />
+    <Compile Include="ProjectManipulator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="VcxProjDeserializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -66,18 +66,16 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Th3-Prophetman-Unreal-Tournament-3-Unreal-Tournament-III %281%29.ico" />
-    <Content Include="UT.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ProjectSerializer\ProjectSerializer.csproj">
       <Project>{d0b9ae96-0fe0-47c7-8b1e-a56802b14401}</Project>
       <Name>ProjectSerializer</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\UT.ico" />
+    <Content Include="UT.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
