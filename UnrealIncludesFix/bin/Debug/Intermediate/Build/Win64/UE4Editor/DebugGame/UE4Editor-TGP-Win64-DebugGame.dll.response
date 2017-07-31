@@ -1,0 +1,90 @@
+/MANIFEST:NO
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:5000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"D:\Programs\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.NonOptimized.h.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\Action.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\AttackObjectDecorator.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\BaseAttackObject.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\Dash.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\Element.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\ExampleModifier.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\Jump.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\Modifier.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\Smallblock.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\SpellCommon.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\SpellEnums.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\SpellObject.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\TechDemoCharacter.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\TechDemoGameMode.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\TechDemoHUD.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\TechDemoProjectile.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\TGP.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\AICharacter.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\HealthComponent.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\HealthRegeneration.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\StatEffect.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\StatManagerComponent.cpp.obj"
+"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\TGP\TGP.generated.cpp.obj"
+"D:\Programs\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\TGP\PCLaunch.rc.res"
+"D:\Programs\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+"D:\Programs\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Slate.lib"
+"D:\Programs\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SlateCore.lib"
+"D:\Programs\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
+"D:\Programs\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
+"D:\Programs\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
+"D:\Programs\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
+"D:\Programs\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HeadMountedDisplay.lib"
+"D:\Programs\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GameplayTasks.lib"
+/OUT:"D:\Projects\Unreal\TheGauntletPrismatic\Binaries\Win64\UE4Editor-TGP-Win64-DebugGame.dll"
+/IMPLIB:"D:\Projects\Unreal\TheGauntletPrismatic\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-TGP-Win64-DebugGame.suppressed.lib"
+/PDB:"D:\Projects\Unreal\TheGauntletPrismatic\Binaries\Win64\UE4Editor-TGP-Win64-DebugGame.pdb"
+/ignore:4078
